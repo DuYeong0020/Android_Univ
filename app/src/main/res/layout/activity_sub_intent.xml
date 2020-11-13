@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubIntentActivity">
+
+    <TextView
+        android:id="@+id/tv_Intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INTENT CONTROL"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/et_MyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="30dp"
+        android:hint="이름" />
+    <CheckBox
+        android:id="@+id/cb_End"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="일찍 수업을 끝내고 싶다."/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_OneHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1시간"
+            android:textSize="30dp"/>
+        <RadioButton
+            android:id="@+id/rb_TwoHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2시간"
+            android:textSize="30dp"/>
+        <RadioButton
+            android:id="@+id/rb_ThreeHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3시간"
+            android:textSize="30dp"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과"
+        android:textSize="25dp" />
+
+</LinearLayout>

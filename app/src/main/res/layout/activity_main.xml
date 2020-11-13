@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#673AB7"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:gravity="right"
+        android:text="Button"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:gravity="right"
+        android:text="Call"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:gravity="right"
+        android:text="WEB"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btnPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:gravity="right"
+        android:text="PHOTO"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCtrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control"
+        android:textSize="36sp" />
+
+</LinearLayout>
