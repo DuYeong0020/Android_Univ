@@ -9,6 +9,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 
 class MyView extends View {
@@ -44,8 +45,8 @@ class MyView extends View {
         path1.lineTo(10+100, 290);
         path1.lineTo(10+150, 290+50);
         path1.lineTo(10+200, 290);
-
     }
+
 }
 public class DrawCtrlActivity extends AppCompatActivity {
 
@@ -54,7 +55,7 @@ public class DrawCtrlActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         // setContentView(R.layout.activity_draw_ctrl);
 
-        MyView MyTestVuew = new MyView(this);
-        setContentView(MyTestVuew);
+        MyView MyTestView = new MyView(this);
+        setContentView(MyTestView);
     }
 }

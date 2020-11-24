@@ -39,4 +39,18 @@
         android:layout_height="wrap_content"
         android:text="DrawTest"
         android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_TouchCtrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Touch Test" />
+
+    <Button
+        android:id="@+id/btn_HttpGetTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpGetTest"
+        android:textSize="24sp" />
 </LinearLayout>
