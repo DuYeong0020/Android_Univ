@@ -14,18 +14,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class UserActivity extends AppCompatActivity {
-    Button BtnAddUser;
-    EditText EtUserID, EtPwd, EtName;
+        Button BtnAddUser;
+        EditText EtUserID, EtPwd, EtName;
 
-    public String setTenLenString(String sInput) { // "1234" => "1234    "
-        String sReturn = sInput;
-        int nCount = 10 - sReturn.length();
-        for (int i = 0; i < nCount; i++) {
-            sReturn += " ";
+        public String setTenLenString(String sInput) { // "1234" => "1234    "
+            String sReturn = sInput;
+            int nCount = 10 - sReturn.length();
+            for (int i = 0; i < nCount; i++) {
+                sReturn += " ";
+            }
+            return sReturn;
+
         }
-        return sReturn;
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
